@@ -1,8 +1,8 @@
-[![Release](https://img.shields.io/github/release/maorfr/kube-tasks.svg)](https://github.com/maorfr/kube-tasks/releases)
-[![Travis branch](https://img.shields.io/travis/maorfr/kube-tasks/master.svg)](https://travis-ci.org/maorfr/kube-tasks)
-[![Docker Pulls](https://img.shields.io/docker/pulls/maorfr/kube-tasks.svg)](https://hub.docker.com/r/maorfr/kube-tasks/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/maorfr/kube-tasks)](https://goreportcard.com/report/github.com/maorfr/kube-tasks)
-[![license](https://img.shields.io/github/license/maorfr/kube-tasks.svg)](https://github.com/maorfr/kube-tasks/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/amerello/kube-tasks.svg)](https://github.com/amerello/kube-tasks/releases)
+[![Travis branch](https://img.shields.io/travis/amerello/kube-tasks/master.svg)](https://travis-ci.org/amerello/kube-tasks)
+[![Docker Pulls](https://img.shields.io/docker/pulls/amerello/kube-tasks.svg)](https://hub.docker.com/r/amerello/kube-tasks/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/amerello/kube-tasks)](https://goreportcard.com/report/github.com/amerello/kube-tasks)
+[![license](https://img.shields.io/github/license/amerello/kube-tasks.svg)](https://github.com/amerello/kube-tasks/blob/master/LICENSE)
 
 # Kube tasks
 

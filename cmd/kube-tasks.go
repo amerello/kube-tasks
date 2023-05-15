@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/maorfr/kube-tasks/pkg/kubetasks"
-	"github.com/maorfr/kube-tasks/pkg/utils"
+	"github.com/amerello/kube-tasks/pkg/kubetasks"
+	"github.com/amerello/kube-tasks/pkg/utils"
 	"github.com/spf13/cobra"
 )
 

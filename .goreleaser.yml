@@ -25,4 +25,4 @@ dockers:
 - binary: kube-tasks
   dockerfile: Dockerfile
   image_templates:
-  - "maorfr/{{.ProjectName}}:{{ .Tag }}"
+  - "amerello/{{.ProjectName}}:{{ .Tag }}"

@@ -23,7 +23,7 @@ build: fmt vet
 # Build kube-tasks docker image
 docker: fmt vet
 	cp bin/kube-tasks kube-tasks
-	docker build -t maorfr/kube-tasks:latest .
+	docker build -t amerello/kube-tasks:latest .
 	rm kube-tasks
 
 
@@ -33,7 +33,7 @@ ifdef TRAVIS
 ifdef DOCKER_USER
 ifdef DOCKER_PASSWORD
 	docker login -u $(DOCKER_USER) -p $(DOCKER_PASSWORD)
-	docker push maorfr/kube-tasks:latest
+	docker push amerello/kube-tasks:latest
 endif
 endif
 endif
