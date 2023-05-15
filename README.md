@@ -1,5 +1,5 @@
 [![Release](https://img.shields.io/github/release/amerello/kube-tasks.svg)](https://github.com/amerello/kube-tasks/releases)
-[![Travis branch](https://img.shields.io/travis/amerello/kube-tasks/master.svg)](https://travis-ci.org/amerello/kube-tasks)
+[![Travis branch](https://app.travis-ci.com/amerello/kube-tasks.svg?branch=master&status=passed)](https://app.travis-ci.com/github/amerello/kube-tasks)
 [![Docker Pulls](https://img.shields.io/docker/pulls/amerello/kube-tasks.svg)](https://hub.docker.com/r/amerello/kube-tasks/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/amerello/kube-tasks)](https://goreportcard.com/report/github.com/amerello/kube-tasks)
 [![license](https://img.shields.io/github/license/amerello/kube-tasks.svg)](https://github.com/amerello/kube-tasks/blob/master/LICENSE)
