@@ -45,6 +45,7 @@ type simpleBackupCmd struct {
 	parallel   int
 	tag        string
 	bufferSize float64
+	skipErrorFiles bool
 
 	out io.Writer
 }
@@ -58,7 +59,7 @@ func NewSimpleBackupCmd(out io.Writer) *cobra.Command {
 		Short: "Backup files to cloud storage",
 		Long:  ``,
 		Run: func(cmd *cobra.Command, args []string) {
-			if _, err := kubetasks.SimpleBackup(b.namespace, b.selector, b.container, b.path, b.dst, b.parallel, b.tag, b.bufferSize); err != nil {
+			if _, err := kubetasks.SimpleBackup(b.namespace, b.selector, b.container, b.path, b.dst, b.parallel, b.tag, b.bufferSize, b.skipErrorFiles); err != nil {
 				log.Fatal(err)
 			}
 		},
