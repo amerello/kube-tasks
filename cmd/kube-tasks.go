@@ -37,14 +37,14 @@ func NewRootCmd(args []string) *cobra.Command {
 }
 
 type simpleBackupCmd struct {
-	namespace  string
-	selector   string
-	container  string
-	path       string
-	dst        string
-	parallel   int
-	tag        string
-	bufferSize float64
+	namespace      string
+	selector       string
+	container      string
+	path           string
+	dst            string
+	parallel       int
+	tag            string
+	bufferSize     float64
 	skipErrorFiles bool
 
 	out io.Writer
