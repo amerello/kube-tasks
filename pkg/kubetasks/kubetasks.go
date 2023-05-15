@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/amerello/kube-tasks/pkg/utils"
-	"github.com/maorfr/skbn/pkg/skbn"
+	"github.com/amerello/skbn/pkg/skbn"
 )
 
 // SimpleBackup performs backup

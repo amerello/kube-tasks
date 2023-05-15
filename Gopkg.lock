@@ -34,15 +34,15 @@
   version = "0.3.0"
 
 [[projects]]
-  digest = "1:0af1dc04a5838f433503810d9f82b6f8fbc800515a37ac5040e056c7fff0ac86"
-  name = "github.com/amerello/kube-tasks"
+  digest = "1:a26c58546f0da8c01dabe383894d852ab27b27554ca3d44baf27372ae9184920"
+  name = "github.com/amerello/skbn"
   packages = [
-    "pkg/kubetasks",
+    "pkg/skbn",
     "pkg/utils",
   ]
   pruneopts = "UT"
-  revision = "046c8c4cd4565ad0c1d3623a8a192da03ae7c12c"
-  version = "0.1.2"
+  revision = "92374572988eaa511a3b083ee2e3b558d8991f52"
+  version = "0.0.2"
 
 [[projects]]
   digest = "1:4cbfa54eb7ec3d4d33926c2ae3be713215e29c43b499dba386750ea933af2a55"
@@ -228,17 +228,6 @@
   version = "v1.1.7"
 
 [[projects]]
-  digest = "1:c52b10fbc37ee3931f3719d00bdb3e2d06431943ce1571669f15fdaa57d21987"
-  name = "github.com/maorfr/skbn"
-  packages = [
-    "pkg/skbn",
-    "pkg/utils",
-  ]
-  pruneopts = "UT"
-  revision = "326c955b20ddb7c6ac46cb612551a9d6cece213f"
-  version = "0.6.0"
-
-[[projects]]
   digest = "1:33422d238f147d247752996a26574ac48dcf472976eda7f5134015f06bf16563"
   name = "github.com/modern-go/concurrent"
   packages = ["."]
@@ -253,25 +242,6 @@
   pruneopts = "UT"
   revision = "4b7aa43c6742a2c18fdef89dd197aaae7dac7ccd"
   version = "1.0.1"
-
-[[projects]]
-  digest = "1:aa1b78c6ed1851ffc7255da7ecc6ba7f389d5feaa3077a68042a9af14006e2c8"
-  name = "github.com/nuvo/kube-tasks"
-  packages = ["pkg/utils"]
-  pruneopts = "UT"
-  revision = "046c8c4cd4565ad0c1d3623a8a192da03ae7c12c"
-  version = "0.1.2"
-
-[[projects]]
-  digest = "1:0afbbd82a14657dbe53e816648bd4e76e8267b9bac030851500055baca6f90c5"
-  name = "github.com/nuvo/skbn"
-  packages = [
-    "pkg/skbn",
-    "pkg/utils",
-  ]
-  pruneopts = "UT"
-  revision = "f3f8aee53f67faa4d0337f7fd2406d5f265bb4f3"
-  version = "0.4.2"
 
 [[projects]]
   branch = "master"
@@ -710,9 +680,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/amerello/kube-tasks/pkg/kubetasks",
-    "github.com/amerello/kube-tasks/pkg/utils",
-    "github.com/maorfr/skbn/pkg/skbn",
+    "github.com/amerello/skbn/pkg/skbn",
     "github.com/spf13/cobra",
     "k8s.io/apimachinery/pkg/apis/meta/v1",
   ]

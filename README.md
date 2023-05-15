@@ -32,7 +32,7 @@ Flags:
 
 Example: Backup Jenkins
 ```
-kube-tasks simple-backup -n default -l release=jenkins -c jenkins --path /var/jenkins_home --dst s3://maorfr-jenkins-data
+kube-tasks simple-backup -n default -l release=jenkins -c jenkins --path /var/jenkins_home --dst s3://amerello-jenkins-data
 ```
 
 ### Wait for Pods

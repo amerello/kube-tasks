@@ -1,6 +1,6 @@
 [[constraint]]
-  name = "github.com/maorfr/skbn"
-  version = "0.6.0"
+  name = "github.com/amerello/skbn"
+  version = "0.0.2"
 
 [[constraint]]
   name = "github.com/spf13/cobra"
