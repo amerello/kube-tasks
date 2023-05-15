@@ -74,6 +74,7 @@ func NewSimpleBackupCmd(out io.Writer) *cobra.Command {
 	f.IntVarP(&b.parallel, "parallel", "p", 1, "number of files to copy in parallel. set this flag to 0 for full parallelism")
 	f.StringVar(&b.tag, "tag", utils.GetTimeStamp(), "tag to backup to. Default is Now (yyMMddHHmmss)")
 	f.Float64VarP(&b.bufferSize, "buffer-size", "b", 6.75, "in-memory buffer size (in MB) to use for files copy (buffer per file)")
+	f.BoolVarP(&b.skipErrorFiles, "skip-error-files", "s", true, "Skip error files")
 
 	return cmd
 }
