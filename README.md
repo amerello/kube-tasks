@@ -28,6 +28,7 @@ Flags:
       --path string         path to act on
   -l, --selector string     selector to filter on
       --tag string          tag to backup to. Default is Now (yyMMddHHmmss)
+  -s, --skip-error-files    Skip error files (default true)
 ```
 
 Example: Backup Jenkins
